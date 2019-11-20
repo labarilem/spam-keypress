@@ -1,0 +1,31 @@
+{
+  "name": "spam-keypress",
+  "version": "1.0.0",
+  "description": "Node.js CLI that spams OS keypress events.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./bin/spam-keypress.js",
+  "scripts": {
+    "setup": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/labarilem/spam-keypress.git"
+  },
+  "author": "Marco Labarile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labarilem/spam-keypress/issues"
+  },
+  "homepage": "https://github.com/labarilem/spam-keypress",
+  "dependencies": {
+    "asciify": "^1.3.5",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.3",
+    "ora": "^2.1.0",
+    "robotjs": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/ora": "^1.3.5"
+  }
+}
