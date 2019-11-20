@@ -3,6 +3,8 @@ node_js:
   - node
 install:
   - echo Not installing dependencies
+script:
+  - echo Not running tests
 deploy:
   provider: npm
   email: $NPM_REG_EMAIL
